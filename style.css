@@ -11,7 +11,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--bg-color);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;  /* تحديث الخط */
     color: #333;
     line-height: 1.6;
     transition: background 0.3s ease, color 0.3s ease;
@@ -31,6 +31,7 @@ body {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
     transition: background 0.3s ease;
     color: #fff;
+    font-family: 'Open Sans', sans-serif;  /* استخدام خط آخر للعناصر */
 }
 
 #theme-toggle:hover {
@@ -48,6 +49,7 @@ body {
     letter-spacing: 3px;
     text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     animation: glow 1.5s ease-in-out infinite alternate;
+    font-family: 'Roboto', sans-serif;  /* استخدام الخط المضاف */
 }
 
 @keyframes glow {
@@ -70,6 +72,7 @@ body {
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
     margin: 20px;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;  /* تحديث الخط */
 }
 
 #list a {
@@ -107,6 +110,7 @@ body {
     padding: 20px;
     margin: 20px;
     flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;  /* تحديث الخط */
 }
 
 /* تنسيق النصوص */
@@ -127,6 +131,7 @@ body {
     border-radius: 15px;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
     text-align: center;
+    font-family: 'Open Sans', sans-serif;  /* استخدام خط Open Sans هنا */
 }
 
 /* تنسيق الصور */
